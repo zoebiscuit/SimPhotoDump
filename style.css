@@ -27,10 +27,13 @@ body {
     overflow-x: hidden;
     position: absolute;
     /* took from a parallex video! C: */
-    perspective: 1px;
+    perspective: 1000px;
     transform-style: preserve-3d;
     overflow-y: auto;
     background-image: url("assets/background-img.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 nav {
@@ -105,7 +108,8 @@ nav img {
     position: absolute;
     top: 13%;
     left: 16%;
-    -webkit-text-stroke: 3px var(--primary-color);
+    -webkit-text-stroke: 11px var(--primary-color);
+    paint-order: stroke fill;
     color: var(--base-color);
     text-shadow: 2px 2px 4px black;
 }
@@ -130,8 +134,8 @@ nav img {
     height: auto;
     position: absolute;
     display: block;
-    top: 15%;
-    transform: translate(0%, 40%);
+    top: 22%;
+    filter: drop-shadow(4px 3px 18px black)
 }
 
 h2 {
@@ -147,6 +151,7 @@ html {
 
 .intro {
     transform: translateZ(-1000px);
+
 }
 
 .about-me-box {
@@ -155,8 +160,9 @@ html {
 
 .about-me-box img {
     max-width: 30vw;
-    top: 45%;
+    top: 30%;
     left: 10%;
+    filter: drop-shadow(0px 0px 0px black)
 }
 
 
@@ -167,14 +173,13 @@ html {
     width: 55vw;
     left: 43%;
     color: whitesmoke;
-    transform: translate(0%, -30%);
 }
 
 .about-me-text h2{
     font-family: 'cooper','Times New Roman', Times, serif;
     font-style: none;
     color: whitesmoke;
-    text-shadow: 1px 1px 4px black;
+    text-shadow: 1px 1px 4px gray;
     margin: 0;
     padding: 0;
 }
@@ -193,8 +198,7 @@ html {
 
 .socials {
     color: var(--primary-color);
-    text-shadow: 1px 1px 2px black;
-    transform: translate(0,-125%);
+    transform: translateZ(1000px);
     text-align: center;
     font-style: italic;
     font-size: 2.5rem;
@@ -212,11 +216,29 @@ html {
     transition: 100ms ease;
 }
 
-.photo-dump {
+#photo-dump-background {
     width: 100vw;
-    height: auto;
-    margin: 0;
-    background-color: #dbbcbf;
+    height: 2000px;
+    margin-bottom: 50px;
+    border-bottom-left-radius: 450px;
+    border-bottom-right-radius: 450px;
+
+}
+
+.actual-dump {
+}
+
+.actual-dump h2{
+    top: 47%;
+    left: 20%;
+    font-size: 10rem;
+    font-family: 'cooper','recoleta','Times New Roman', Times, serif;
+    font-style: bold;
+    text-align: center;
+    position: absolute;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px gray;
+    font-style: italic;
 }
 
 
