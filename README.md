@@ -21,6 +21,3 @@ me, myself, and I
 W3 schools
 YouTube
 my coding besties at school for design advice
-
-## Notes 
-extra notes or whatever
