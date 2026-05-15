@@ -11,7 +11,7 @@ try it here: https://zoebiscuit.github.io/SimPhotoDump/
 
 
 ## About
-In the beginning of the project there will be a title screen. if you scroll down there will be an about me area, talkinga bout who this mysterious zoe is (ahem its me). and then, you can scroll down to the actual photo dump and read through the photo dump!
+In the beginning of the project there will be a title screen. if you scroll down there will be an about me area, talking about who this mysterious zoe is (ahem its me). and then, you can scroll down to the actual photo dump and read through the photo dump!
 
 ## Controls
 just scroll and read.
