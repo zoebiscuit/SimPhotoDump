@@ -301,3 +301,66 @@ html {
     height: auto;
     transform: translate(11%, 820%);
 }
+
+footer p{
+    font-style: italic;
+    text-shadow: 2px 1px 1px var(--primary-color);
+    color: whitesmoke;
+    font-family: 'cooper','Times New Roman', Times, serif;
+    position: absolute;
+    bottom: -12%;
+    font-size: 5em;
+    left: 35%;
+}
+
+@media screen and (min-width: 1900px) {
+    nav li {
+        font-size: 4em;
+    }
+
+    .top-centered-text h1{
+        font-size: 13em;
+        top: 8%;
+    }
+
+    .top-centered-text h2 {
+        font-size:6em;
+        top:28%;
+    }
+    .about-me-title {
+        font-size:6em;
+    }
+
+    .about-me-body {
+        font-size: 3em;
+    }
+
+    .socials {
+        font-size: 4em;
+        top:11%;
+    }
+
+    .actual-dump h2 {
+        font-size: 15em;
+    }
+
+    .actual-dump p {
+        font-size: 3em;
+    }
+
+    .actual-dump {
+        gap: 30rem;
+    }
+
+    .text-box {
+        width: 35vw;
+        transform: translate(11%, 760%);
+    }
+
+    footer p {
+        bottom: -12%;
+        font-size: 4em;
+        left: 42%;
+    }
+    
+}
